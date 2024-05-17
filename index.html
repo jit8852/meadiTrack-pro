@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MeadiTrack Pro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="nav-logo">
+          <div class="logo"></div>
+        </div>
+        <div class="function">
+          <a href="#">Home</a>
+          <select id="fruitSelect">
+            <option value="apple">patient's detail</option>
+            <option value="banana">Doctor's detail</option>
+          </select>
+        </div>
+        <div class="sb">
+          <div class="button">
+            <button>search</button>
+          </div>
+        </div>
+        <div class="function2">
+          <a href="#">Patient's records</a>
+          <a href="login.html">log in</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="upper">
+        <div class="name">
+          <h3>Patient Name: <span id="patientName"></span></h3>
+          <h3>Age:</h3>
+        </div>
+        <div class="name2">
+          <h3>Doctor 's  Name :</h3>
+          <h3>Hospital's Name:</h3>
+        </div>
+      </div>
+      <div class="container">
+        <h1>Medicine Alert</h1>
+        <div class="medicine-list">
+          <div class="medicine-item" id="medicine1">
+            <h2><input type="meadisin name"></h2>
+            <p>Take 1 pill every morning</p>
+            <input type="time" id="time1">
+            <button onclick="setAlarm('time1', 'Medicine 1')">Set Alarm</button>
+            <input type="checkbox" id="taken1" onchange="updateStatus('Medicine 1', this.checked)">
+            <label for="taken1">Taken</label>
+          </div>
+          <div class="medicine-item" id="medicine2">
+            <h2>Medicine 2</h2>
+            <p>Take 2 pills every night</p>
+            <input type="time" id="time2">
+            <button onclick="setAlarm('time2', 'Medicine 2')">Set Alarm</button>
+            <input type="checkbox" id="taken2" onchange="updateStatus('Medicine 2', this.checked)">
+            <label for="taken2">Taken</label>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

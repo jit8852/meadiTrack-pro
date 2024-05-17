@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    border: border box;
+}
+.navbar{
+    height: 60px;
+    background-color: rgb(13, 99, 114);
+    color: black;
+    display: flex;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 150px;
+}
+
+.logo{
+    background-image: url(MAIN\ LOGO\ \(4\)\ \(1\).png);
+    background-size:cover;
+    height: 60px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.function{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.function a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 50px;
+}
+
+.sb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    justify-content: center;
+}
+
+.button button{
+    height: 30px;
+    width: 500px;
+    text-align: left;
+}
+
+
+.function2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.function2 a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 50px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  button a{
+    text-decoration: none;
+    color: #f4f4f4;
+    text-size-adjust: 20px;
+  }
+
+  .upper{
+    height: 80px;
+    width: 100%;
+    background-color:rgb(198, 230, 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .name h3{
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .name2 h3{
+    margin-right: 250px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .medicine-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .medicine-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
